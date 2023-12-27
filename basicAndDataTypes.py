@@ -35,6 +35,7 @@ print(z)
 x ="Oranges";
 print("12" + " " + x + " "+ "makes a dozen..");
 
+####################  DATA TYPES ######################################
 ###STRINGS###
 
 #multilineStrings
@@ -167,9 +168,7 @@ print(x.index("d"));
 print(x.isalnum());
 print(x.isalpha());
 
-
-###DATA TYPES###
-##Numeric types -int , float ,complex
+##Numeric types -int , float ,complex ##################################################
 
 x =1;
 y = 7.8;
@@ -212,6 +211,34 @@ z =float(0);
 print(x);
 print(y);
 print(z);
+
+### Boolean Types ####
+
+print(10 > 9)
+print(10 == 9)
+print(10 < 9)
+
+a = 200
+b = 33
+if b > a:
+ print("b is greater than a")
+else:
+ print("b is not greater than a")
+
+##Evaluate values
+x = "4"
+y = 15
+c ="jeet"
+d = 0;
+print(bool(d));
+print(bool(c));
+print(bool(x))
+print(bool(y))
+
+x =200;
+print(isinstance(x, float));
+print(isinstance(x, int));
+
 
 
 
