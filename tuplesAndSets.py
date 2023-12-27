@@ -115,6 +115,11 @@ s ={"Apple", "Banana", "Dragon Fruit"};
 s.remove("Apple");
 print(s);
 
+##Join sets
+s ={"Apple", "Banana", "Dragon Fruit"};
+set = {"Guava", "Pineapple"};
+s.union(set);
+print(s);
 
 
 
